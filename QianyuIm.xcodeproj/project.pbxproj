@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D587A362AFC2308502C285 /* Pods_QianyuIm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C830D06CBD505BEEE21B381C /* Pods_QianyuIm.framework */; };
+		EF02264E24ECC95D00FAC80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02264D24ECC95D00FAC80D /* AppDelegate.swift */; };
+		EF02265724ECC96000FAC80D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF02265624ECC96000FAC80D /* Assets.xcassets */; };
+		EF02265A24ECC96000FAC80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02265824ECC96000FAC80D /* LaunchScreen.storyboard */; };
+		EF02266524ECC96100FAC80D /* QianyuImTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02266424ECC96100FAC80D /* QianyuImTests.swift */; };
+		EF02267024ECC96100FAC80D /* QianyuImUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02266F24ECC96100FAC80D /* QianyuImUITests.swift */; };
+		EF02269124ED135C00FAC80D /* tab_community.json in Resources */ = {isa = PBXBuildFile; fileRef = EF02268C24ED135C00FAC80D /* tab_community.json */; };
+		EF02269224ED135C00FAC80D /* tab_mine.json in Resources */ = {isa = PBXBuildFile; fileRef = EF02268D24ED135C00FAC80D /* tab_mine.json */; };
+		EF02269324ED135C00FAC80D /* tab_home.json in Resources */ = {isa = PBXBuildFile; fileRef = EF02268E24ED135C00FAC80D /* tab_home.json */; };
+		EF02269424ED135C00FAC80D /* tab_novel.json in Resources */ = {isa = PBXBuildFile; fileRef = EF02268F24ED135C00FAC80D /* tab_novel.json */; };
+		EF02269524ED135C00FAC80D /* tab_video.json in Resources */ = {isa = PBXBuildFile; fileRef = EF02269024ED135C00FAC80D /* tab_video.json */; };
+		EF02269824ED13DB00FAC80D /* QYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02269724ED13DB00FAC80D /* QYTabBarController.swift */; };
+		EF02269A24ED141300FAC80D /* QYLottieTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02269924ED141300FAC80D /* QYLottieTabBarItemContentView.swift */; };
+		EF02269D24ED153C00FAC80D /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02269C24ED153C00FAC80D /* AppRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF02266124ECC96100FAC80D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF02264224ECC95D00FAC80D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF02264924ECC95D00FAC80D;
+			remoteInfo = QianyuIm;
+		};
+		EF02266C24ECC96100FAC80D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF02264224ECC95D00FAC80D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF02264924ECC95D00FAC80D;
+			remoteInfo = QianyuIm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64E894ABFB963166B685BE31 /* Pods-QianyuIm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QianyuIm.debug.xcconfig"; path = "Target Support Files/Pods-QianyuIm/Pods-QianyuIm.debug.xcconfig"; sourceTree = "<group>"; };
+		C830D06CBD505BEEE21B381C /* Pods_QianyuIm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QianyuIm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2556B96181032E14FD12441 /* Pods-QianyuIm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QianyuIm.release.xcconfig"; path = "Target Support Files/Pods-QianyuIm/Pods-QianyuIm.release.xcconfig"; sourceTree = "<group>"; };
+		EF02264A24ECC95D00FAC80D /* QianyuIm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QianyuIm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02264D24ECC95D00FAC80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF02265624ECC96000FAC80D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF02265924ECC96000FAC80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF02265B24ECC96000FAC80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02266024ECC96100FAC80D /* QianyuImTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QianyuImTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02266424ECC96100FAC80D /* QianyuImTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QianyuImTests.swift; sourceTree = "<group>"; };
+		EF02266624ECC96100FAC80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02266B24ECC96100FAC80D /* QianyuImUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QianyuImUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02266F24ECC96100FAC80D /* QianyuImUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QianyuImUITests.swift; sourceTree = "<group>"; };
+		EF02267124ECC96100FAC80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF02268C24ED135C00FAC80D /* tab_community.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_community.json; sourceTree = "<group>"; };
+		EF02268D24ED135C00FAC80D /* tab_mine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_mine.json; sourceTree = "<group>"; };
+		EF02268E24ED135C00FAC80D /* tab_home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_home.json; sourceTree = "<group>"; };
+		EF02268F24ED135C00FAC80D /* tab_novel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_novel.json; sourceTree = "<group>"; };
+		EF02269024ED135C00FAC80D /* tab_video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_video.json; sourceTree = "<group>"; };
+		EF02269724ED13DB00FAC80D /* QYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYTabBarController.swift; sourceTree = "<group>"; };
+		EF02269924ED141300FAC80D /* QYLottieTabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLottieTabBarItemContentView.swift; sourceTree = "<group>"; };
+		EF02269C24ED153C00FAC80D /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF02264724ECC95D00FAC80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D587A362AFC2308502C285 /* Pods_QianyuIm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02265D24ECC96100FAC80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02266824ECC96100FAC80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA30B509F4F05DD898DF201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C830D06CBD505BEEE21B381C /* Pods_QianyuIm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90232AC1C51718B70401FF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E894ABFB963166B685BE31 /* Pods-QianyuIm.debug.xcconfig */,
+				E2556B96181032E14FD12441 /* Pods-QianyuIm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF02264124ECC95D00FAC80D = {
+			isa = PBXGroup;
+			children = (
+				EF02264C24ECC95D00FAC80D /* QianyuIm */,
+				EF02266324ECC96100FAC80D /* QianyuImTests */,
+				EF02266E24ECC96100FAC80D /* QianyuImUITests */,
+				EF02264B24ECC95D00FAC80D /* Products */,
+				90232AC1C51718B70401FF3F /* Pods */,
+				2BA30B509F4F05DD898DF201 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF02264B24ECC95D00FAC80D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF02264A24ECC95D00FAC80D /* QianyuIm.app */,
+				EF02266024ECC96100FAC80D /* QianyuImTests.xctest */,
+				EF02266B24ECC96100FAC80D /* QianyuImUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF02264C24ECC95D00FAC80D /* QianyuIm */ = {
+			isa = PBXGroup;
+			children = (
+				EF02267D24ECCE6300FAC80D /* AppDelegate */,
+				EF02269624ED139D00FAC80D /* Tabbar */,
+				EF02269B24ED151E00FAC80D /* Route */,
+				EF02267E24ECCE8900FAC80D /* Resources */,
+			);
+			path = QianyuIm;
+			sourceTree = "<group>";
+		};
+		EF02266324ECC96100FAC80D /* QianyuImTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF02266424ECC96100FAC80D /* QianyuImTests.swift */,
+				EF02266624ECC96100FAC80D /* Info.plist */,
+			);
+			path = QianyuImTests;
+			sourceTree = "<group>";
+		};
+		EF02266E24ECC96100FAC80D /* QianyuImUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF02266F24ECC96100FAC80D /* QianyuImUITests.swift */,
+				EF02267124ECC96100FAC80D /* Info.plist */,
+			);
+			path = QianyuImUITests;
+			sourceTree = "<group>";
+		};
+		EF02267D24ECCE6300FAC80D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF02264D24ECC95D00FAC80D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF02267E24ECCE8900FAC80D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF02268B24ED134600FAC80D /* Tabbar */,
+				EF02265624ECC96000FAC80D /* Assets.xcassets */,
+				EF02265824ECC96000FAC80D /* LaunchScreen.storyboard */,
+				EF02265B24ECC96000FAC80D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF02268B24ED134600FAC80D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EF02268C24ED135C00FAC80D /* tab_community.json */,
+				EF02268E24ED135C00FAC80D /* tab_home.json */,
+				EF02268D24ED135C00FAC80D /* tab_mine.json */,
+				EF02268F24ED135C00FAC80D /* tab_novel.json */,
+				EF02269024ED135C00FAC80D /* tab_video.json */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EF02269624ED139D00FAC80D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EF02269724ED13DB00FAC80D /* QYTabBarController.swift */,
+				EF02269924ED141300FAC80D /* QYLottieTabBarItemContentView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EF02269B24ED151E00FAC80D /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				EF02269C24ED153C00FAC80D /* AppRouter.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF02264924ECC95D00FAC80D /* QianyuIm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02267424ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuIm" */;
+			buildPhases = (
+				40D9770D1D81A9ACC0AEB919 /* [CP] Check Pods Manifest.lock */,
+				EF02264624ECC95D00FAC80D /* Sources */,
+				EF02264724ECC95D00FAC80D /* Frameworks */,
+				EF02264824ECC95D00FAC80D /* Resources */,
+				DA47F1220C63768546A43618 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QianyuIm;
+			productName = QianyuIm;
+			productReference = EF02264A24ECC95D00FAC80D /* QianyuIm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF02265F24ECC96100FAC80D /* QianyuImTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02267724ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuImTests" */;
+			buildPhases = (
+				EF02265C24ECC96100FAC80D /* Sources */,
+				EF02265D24ECC96100FAC80D /* Frameworks */,
+				EF02265E24ECC96100FAC80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF02266224ECC96100FAC80D /* PBXTargetDependency */,
+			);
+			name = QianyuImTests;
+			productName = QianyuImTests;
+			productReference = EF02266024ECC96100FAC80D /* QianyuImTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF02266A24ECC96100FAC80D /* QianyuImUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02267A24ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuImUITests" */;
+			buildPhases = (
+				EF02266724ECC96100FAC80D /* Sources */,
+				EF02266824ECC96100FAC80D /* Frameworks */,
+				EF02266924ECC96100FAC80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF02266D24ECC96100FAC80D /* PBXTargetDependency */,
+			);
+			name = QianyuImUITests;
+			productName = QianyuImUITests;
+			productReference = EF02266B24ECC96100FAC80D /* QianyuImUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF02264224ECC95D00FAC80D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = qy;
+				TargetAttributes = {
+					EF02264924ECC95D00FAC80D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					EF02265F24ECC96100FAC80D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF02264924ECC95D00FAC80D;
+					};
+					EF02266A24ECC96100FAC80D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF02264924ECC95D00FAC80D;
+					};
+				};
+			};
+			buildConfigurationList = EF02264524ECC95D00FAC80D /* Build configuration list for PBXProject "QianyuIm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF02264124ECC95D00FAC80D;
+			productRefGroup = EF02264B24ECC95D00FAC80D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF02264924ECC95D00FAC80D /* QianyuIm */,
+				EF02265F24ECC96100FAC80D /* QianyuImTests */,
+				EF02266A24ECC96100FAC80D /* QianyuImUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF02264824ECC95D00FAC80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02269424ED135C00FAC80D /* tab_novel.json in Resources */,
+				EF02269224ED135C00FAC80D /* tab_mine.json in Resources */,
+				EF02269524ED135C00FAC80D /* tab_video.json in Resources */,
+				EF02269124ED135C00FAC80D /* tab_community.json in Resources */,
+				EF02265A24ECC96000FAC80D /* LaunchScreen.storyboard in Resources */,
+				EF02269324ED135C00FAC80D /* tab_home.json in Resources */,
+				EF02265724ECC96000FAC80D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02265E24ECC96100FAC80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02266924ECC96100FAC80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40D9770D1D81A9ACC0AEB919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QianyuIm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA47F1220C63768546A43618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QianyuIm/Pods-QianyuIm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QianyuIm/Pods-QianyuIm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QianyuIm/Pods-QianyuIm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF02264624ECC95D00FAC80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02269D24ED153C00FAC80D /* AppRouter.swift in Sources */,
+				EF02269A24ED141300FAC80D /* QYLottieTabBarItemContentView.swift in Sources */,
+				EF02264E24ECC95D00FAC80D /* AppDelegate.swift in Sources */,
+				EF02269824ED13DB00FAC80D /* QYTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02265C24ECC96100FAC80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02266524ECC96100FAC80D /* QianyuImTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF02266724ECC96100FAC80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02267024ECC96100FAC80D /* QianyuImUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF02266224ECC96100FAC80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF02264924ECC95D00FAC80D /* QianyuIm */;
+			targetProxy = EF02266124ECC96100FAC80D /* PBXContainerItemProxy */;
+		};
+		EF02266D24ECC96100FAC80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF02264924ECC95D00FAC80D /* QianyuIm */;
+			targetProxy = EF02266C24ECC96100FAC80D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF02265824ECC96000FAC80D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF02265924ECC96000FAC80D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF02267224ECC96100FAC80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF02267324ECC96100FAC80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF02267524ECC96100FAC80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E894ABFB963166B685BE31 /* Pods-QianyuIm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = "$(SRCROOT)/QianyuIm/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuIm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF02267624ECC96100FAC80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2556B96181032E14FD12441 /* Pods-QianyuIm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = "$(SRCROOT)/QianyuIm/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuIm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF02267824ECC96100FAC80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = QianyuImTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuImTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QianyuIm.app/QianyuIm";
+			};
+			name = Debug;
+		};
+		EF02267924ECC96100FAC80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = QianyuImTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuImTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QianyuIm.app/QianyuIm";
+			};
+			name = Release;
+		};
+		EF02267B24ECC96100FAC80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = QianyuImUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuImUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QianyuIm;
+			};
+			name = Debug;
+		};
+		EF02267C24ECC96100FAC80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
+				INFOPLIST_FILE = QianyuImUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QianyuImUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QianyuIm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF02264524ECC95D00FAC80D /* Build configuration list for PBXProject "QianyuIm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02267224ECC96100FAC80D /* Debug */,
+				EF02267324ECC96100FAC80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02267424ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuIm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02267524ECC96100FAC80D /* Debug */,
+				EF02267624ECC96100FAC80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02267724ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuImTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02267824ECC96100FAC80D /* Debug */,
+				EF02267924ECC96100FAC80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF02267A24ECC96100FAC80D /* Build configuration list for PBXNativeTarget "QianyuImUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02267B24ECC96100FAC80D /* Debug */,
+				EF02267C24ECC96100FAC80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF02264224ECC95D00FAC80D /* Project object */;
+}

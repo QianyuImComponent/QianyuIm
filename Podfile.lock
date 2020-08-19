@@ -1,0 +1,49 @@
+PODS:
+  - ESTabBarController-swift (2.8.0)
+  - HBDNavigationBar (1.7.7)
+  - lottie-ios (3.1.8)
+  - QYUtilCore (0.0.1):
+    - QYUtilCore/Base (= 0.0.1)
+    - QYUtilCore/Dependent (= 0.0.1)
+    - QYUtilCore/Extensions (= 0.0.1)
+    - QYUtilCore/Route (= 0.0.1)
+  - QYUtilCore/Base (0.0.1):
+    - HBDNavigationBar (~> 1.7.7)
+    - QYUtilCore/Dependent
+    - UINavigation-SXFixSpace (~> 1.2.4)
+  - QYUtilCore/Dependent (0.0.1):
+    - QYUtilCore/Extensions
+  - QYUtilCore/Extensions (0.0.1)
+  - QYUtilCore/Route (0.0.1):
+    - URLNavigator (~> 2.3.0)
+  - UINavigation-SXFixSpace (1.2.4)
+  - URLNavigator (2.3.0)
+
+DEPENDENCIES:
+  - ESTabBarController-swift (~> 2.8.0)
+  - lottie-ios (~> 3.1.8)
+  - QYUtilCore (from `../QYUtilCore`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ESTabBarController-swift
+    - HBDNavigationBar
+    - lottie-ios
+    - UINavigation-SXFixSpace
+    - URLNavigator
+
+EXTERNAL SOURCES:
+  QYUtilCore:
+    :path: "../QYUtilCore"
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  QYUtilCore: c18ab2567c684492b2c1b477a8bc0acd718f5563
+  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
+
+PODFILE CHECKSUM: f1111226ec6551b4cd60dfbb66e588e201d53654
+
+COCOAPODS: 1.9.1
