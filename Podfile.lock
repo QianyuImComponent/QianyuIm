@@ -2,6 +2,14 @@ PODS:
   - ESTabBarController-swift (2.8.0)
   - HBDNavigationBar (1.7.7)
   - lottie-ios (3.1.8)
+  - QYCommunityModule (0.0.1):
+    - QYUtilCore
+  - QYHomeModule (0.0.1):
+    - QYUtilCore
+  - QYMineModule (0.0.1):
+    - QYUtilCore
+  - QYNovelModule (0.0.1):
+    - QYUtilCore
   - QYUtilCore (0.0.1):
     - QYUtilCore/Base (= 0.0.1)
     - QYUtilCore/Dependent (= 0.0.1)
@@ -16,13 +24,20 @@ PODS:
   - QYUtilCore/Extensions (0.0.1)
   - QYUtilCore/Route (0.0.1):
     - URLNavigator (~> 2.3.0)
+  - QYVideoModule (0.0.1):
+    - QYUtilCore
   - UINavigation-SXFixSpace (1.2.4)
   - URLNavigator (2.3.0)
 
 DEPENDENCIES:
   - ESTabBarController-swift (~> 2.8.0)
   - lottie-ios (~> 3.1.8)
+  - QYCommunityModule (from `../QYCommunityModule`)
+  - QYHomeModule (from `../QYHomeModule`)
+  - QYMineModule (from `../QYMineModule`)
+  - QYNovelModule (from `../QYNovelModule`)
   - QYUtilCore (from `../QYUtilCore`)
+  - QYVideoModule (from `../QYVideoModule`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -33,17 +48,32 @@ SPEC REPOS:
     - URLNavigator
 
 EXTERNAL SOURCES:
+  QYCommunityModule:
+    :path: "../QYCommunityModule"
+  QYHomeModule:
+    :path: "../QYHomeModule"
+  QYMineModule:
+    :path: "../QYMineModule"
+  QYNovelModule:
+    :path: "../QYNovelModule"
   QYUtilCore:
     :path: "../QYUtilCore"
+  QYVideoModule:
+    :path: "../QYVideoModule"
 
 SPEC CHECKSUMS:
   ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  QYCommunityModule: b1c955d7651cf393b70889aace126e23b4df0a53
+  QYHomeModule: 87fa9021e889dce249699956a0f77a6c6df76324
+  QYMineModule: f73aa7b7e7f980f1e978db285e111ef74c4d7d60
+  QYNovelModule: bc8660b6450bba0500a609c3fcc1605ca1d74ca9
   QYUtilCore: c18ab2567c684492b2c1b477a8bc0acd718f5563
+  QYVideoModule: aa94aaf09635872a26175324453a4cb757fa38ad
   UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
   URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
-PODFILE CHECKSUM: f1111226ec6551b4cd60dfbb66e588e201d53654
+PODFILE CHECKSUM: d1eee3f391d68957f1835cd6aa6f0b82214b715f
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4
